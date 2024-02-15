@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    width: 35%;
+    margin:50px auto;
+    height: 91vh;
+    border: 1px solid blue;
+}
+
+
+.toolbar {
+    width: 32.5%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: fixed;
+    left: 50;
+    top: 0;
+    margin: auto;
+}
+
+@media screen and (max-width:600px){
+    body {
+        font-family: Arial, sans-serif;
+        width: 100%;
+        margin: auto;
+    }
+    
+    
+    .toolbar {
+        width: 100%;
+        padding: 10px;
+        background-color: #f0f0f0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        margin: auto;
+    }
+}
+
+main{
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    border: 2px solid red;
+    height: 54vh;
+}
+
+button {
+    margin-right: 5px;
+}
+
+#editor {
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-height: 100%;
+   
+}
+
+.font{
+    border: 1px solid blue;
+    display: flex;
+    padding: 5px;
+    display: none;
+}
+.align{
+    border: 1px solid blue;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    display: none;
+}
+
+.scp{
+    border: 1px solid blue;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    display: none;
+}
+
+.toolbar ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.toolbar ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid blue;
+}
+.selectca{
+    display: flex;
+
+}
+.selectca select{
+    padding: 6px;
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    border: 1px solid rgb(94, 92, 92);
+    margin: 10px auto;
+    overflow: hidden;
+}
+.input input{
+    width: 100%;
+    padding: 7px;
+    border: 0px;
+    margin: 0px;
+}
+
+.input input:hover{
+    outline: none;
+}
+
+.upload-button {
+    padding: 5px 6px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+/* Styling pour que le champ de texte et le bouton soient alignés */
+#imagelink, .upload-button {
+    margin-right: 10px;
+}
+
+/* Styling pour cacher le champ de téléchargement */
+input[type="file"] {
+    display: none;
+}
+
+
+.allbtn{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 60;
+    width: 33.2%;
+    background-color: white;
+    border: lime solid 1px;
+    padding: 5px;
+}
+.allbtn button{
+    width: 100%;
+    padding: 6px;
+    background-color: blue;
+    color: #ccc;
+}
+
+.flex{
+    display: flex;
+}

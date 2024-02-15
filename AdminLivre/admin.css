@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.toolbar {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+main{
+    margin-top: 50px;
+}
+
+button {
+    margin-right: 5px;
+}
+
+#editor {
+    border: 1px solid #ccc;
+    min-height: 80vh;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.font{
+    border: 1px solid blue;
+    display: flex;
+    padding: 5px;
+    display: none;
+}
+.align{
+    border: 1px solid blue;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    display: none;
+}
+
+.scp{
+    border: 1px solid blue;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    display: none;
+}
+
+.toolbar ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.toolbar ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid blue;
+}
+.selectca{
+    display: flex;
+
+}
+.selectca select{
+    padding: 6px;
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    border: 1px solid rgb(94, 92, 92);
+    margin: 10px auto;
+    overflow: hidden;
+}
+.input input{
+    width: 100%;
+    padding: 7px;
+    border: 0px;
+    margin: 0px;
+}
+
+.input input:hover{
+    outline: none;
+}
+
+
+.allbtn{
+    display: flex;
+}
+.allbtn button{
+    width: 100%;
+    padding: 6px;
+    background-color: blue;
+    color: #ccc;
+}
+
+.flex{
+    display: flex;
+}
